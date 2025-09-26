@@ -138,25 +138,6 @@ GROUP BY month
 ORDER BY month;
 ```
 
----
-
-## What you'll find in this repo (suggested structure)
-
-```
-/ (repo root)
-├─ README.md                       # this file
-├─ schema.sql / dump.sql            # schema + data import
-├─ queries.sql                      # analytical queries (the 10 queries above)
-├─ main.py                          # example Python runner for queries
-├─ run_queries.py                   # optional script that prints SELECT outputs nicely
-├─ requirements.txt                 # dependencies (psycopg2-binary, pandas, python-dotenv)
-├─ docs/
-│   └─ screenshot.png               # add your analytics screenshot here
-└─ .gitignore
-```
-
----
-
 ## How to run (local development)
 
 **Prerequisites**: PostgreSQL installed and running, Python 3.8+, git.
